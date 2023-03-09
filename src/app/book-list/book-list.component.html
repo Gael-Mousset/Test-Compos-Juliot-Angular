@@ -1,0 +1,7 @@
+<h1>Liste des livres</h1>
+
+<ul>
+  <li *ngFor="let book of books">
+    <a routerLink="/book/{{ book.url.split('/').pop() }}">{{ book.name }}</a>
+  </li>
+</ul>
