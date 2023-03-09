@@ -1,0 +1,11 @@
+<h1>{{ book?.name }}</h1>
+
+<p>{{ book?.authors.join(', ') }}</p>
+
+<h2>Personnages</h2>
+
+<ul>
+  <li *ngFor="let character of characters">
+    {{ character.name }}
+  </li>
+</ul>
