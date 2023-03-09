@@ -1,2 +1,16 @@
-<app-book-list></app-book-list>
-<router-outlet></router-outlet>
+<body>
+  <header>
+    <a routerLink="/">Liste des livres</a>
+  </header>
+
+  <!-- app.component.html -->
+
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 - Ma bibliothèque Game Of Thrones </p>
+  </footer>
+</body>

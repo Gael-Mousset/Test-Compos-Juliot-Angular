@@ -1,0 +1,36 @@
+/* book-detail.component.css */
+
+/* Centrer le détail du livre */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Centrer les informations du livre */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Centrer le lien de retour */
+  a {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

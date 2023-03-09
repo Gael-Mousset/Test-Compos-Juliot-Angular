@@ -1,0 +1,40 @@
+/* app.component.css */
+
+/* Centrer le contenu */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #7f5408;
+  }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  header{
+    padding-top: 2%;
+    padding-left: 2% ;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+  }
